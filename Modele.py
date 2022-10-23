@@ -113,3 +113,5 @@ def change_lieu(id_animal, lieu):
         else:
             print ("Désolé, le lieu " + lieu + " n'existe pas")
             return None
+    else:
+        return None
