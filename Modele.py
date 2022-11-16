@@ -97,11 +97,11 @@ def change_lieu(id_animal, lieu):
     if(lit_etat(id_animal) != None):
         lieu_animal_actuel = animalJson[id_animal]['LIEU']
         if(lieu in equipements):
-            if(equipements[lieu]['DISPONIBILITÉ'] == 'libre' or lieu == 'mangeoire'): #mangeoire accepte plus d'un animal
+            if(equipements[lieu]['DISPONIBILITÉ'] == 'libre' or lieu == 'litière'): #litière accepte plus d'un animal
                 animalJson[id_animal]['LIEU'] = lieu
                 writeAnimalInJson(animalJson)
-                if (lieu_animal_actuel == 'mangeoire'): #mangeoire accepte plus d'un animal
-                    if (len(cherche_occupant('mangeoire')) == 0):
+                if (lieu_animal_actuel == 'litière'): #litière accepte plus d'un animal
+                    if (len(cherche_occupant('litière')) == 0):
                         equipements[lieu_animal_actuel]['DISPONIBILITÉ'] = 'libre'
                 else:
                     equipements[lieu_animal_actuel]['DISPONIBILITÉ'] = 'libre'

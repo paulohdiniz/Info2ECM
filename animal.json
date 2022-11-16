@@ -2,8 +2,8 @@
     "Tic": {
         "RACE": "tamia",
         "TYPE": "rongeur",
-        "ETAT": "repus",
-        "LIEU": "mangeoire"
+        "ETAT": "affam\u00e9",
+        "LIEU": "liti\u00e8re"
     },
     "Tac": {
         "RACE": "tamia",
@@ -20,13 +20,13 @@
     "Totoro": {
         "RACE": "ili pika",
         "TYPE": "rongeur",
-        "ETAT": "fatigu\u00e9",
-        "LIEU": "roue"
+        "ETAT": "repus",
+        "LIEU": "mangeoire"
     },
     "Pocahontas": {
         "RACE": "opossum",
         "TYPE": "marsupial",
         "ETAT": "affam\u00e9",
-        "LIEU": "nid"
+        "LIEU": "liti\u00e8re"
     }
 }

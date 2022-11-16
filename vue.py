@@ -66,7 +66,6 @@ def press(action):
         info = Controleur.reveiller(liste_animaux[int(animal)])
         showinfo(title = 'Information', message =  info + " si mis à jour, redémarrez le programme pour voir le nouveau statut\lieu de l'animal")
 
-    fenetre.mainloop()
 
    
 
